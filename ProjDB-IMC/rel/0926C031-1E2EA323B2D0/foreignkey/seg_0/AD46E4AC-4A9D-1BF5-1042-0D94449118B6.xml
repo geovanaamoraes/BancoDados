@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AD46E4AC-4A9D-1BF5-1042-0D94449118B6" containerWithKeyObject="09D0D29B-6CA6-746D-C7F8-150E9F5D0F44" localFKIndex="7EB70812-BD8A-4320-CB05-BD48222F8C03" name="imc_clt_FK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>64514566-D20A-F976-4038-537D9D655270</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<referredTableLongName>clt</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>82914CDF-A07B-2A8E-254D-BD2F03081713</referredTableID>
+<keyObject>A00F464E-A037-6CE5-EDE5-D51DE6B84DA1</keyObject>
+<referredKeyID>A00F464E-A037-6CE5-EDE5-D51DE6B84DA1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Cliente_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09D0D29B-6CA6-746D-C7F8-150E9F5D0F44" name="imc">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>F7B03B9F-CE5D-E48C-B81A-46B09BF9A6FA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>IMC</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataAvaliacao" id="00F4BC03-41FA-47A4-5D72-8FF885197088">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>7825F365-A7A8-F1D4-48C1-2E1729AE74B3</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="756CD131-94BB-875F-0940-DFF97BC28EFA">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>62E70156-0E1C-F368-95A6-EF4CFACA957B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idade" id="43D8B4D1-69D6-1CF6-DA6D-F953F901A627">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>AD266CB6-C788-2E84-1B57-10A1992E89FA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="B43B7866-206E-346E-1DEA-601D3DEA4F51">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>3001945C-C6B6-608A-F53E-CE90C3C01EF6</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="4CA08182-FDD9-1697-8B97-1C3D84B9213A">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>397A6A8D-655D-1661-0656-717CEA23BBB8</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="8506B1DA-4A8D-5729-5934-9F53BA791B40">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>874547F6-218A-72F6-1944-4AD3E75D71A7</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resultadoAnalise" id="AA53B06B-E901-F140-227A-EE2D5B103530">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>A32926EA-B4F8-0670-928B-B178A1C06CA0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="clt_Cliente_ID" id="1F43241B-D383-E5F7-24A2-8817B05F1D07">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AD46E4AC-4A9D-1BF5-1042-0D94449118B6" referredColumn="290A3692-B3A4-CDF6-63E0-8C4A006F92DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EB70812-BD8A-4320-CB05-BD48222F8C03" name="imc_clt_FK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>64514566-D20A-F976-4038-537D9D655270</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F43241B-D383-E5F7-24A2-8817B05F1D07"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

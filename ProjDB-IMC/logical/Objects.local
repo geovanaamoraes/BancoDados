@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1EEDCAAC-8C65-32AC-743E-7905F7A70388" name="Cliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="13DF1BE6-18C0-FC19-3C1B-C8229B7CB925" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="9C470225-7F02-A593-15A9-8E4D800D12DA" name="FireFit" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="13DF1BE6-18C0-FC19-3C1B-C8229B7CB925" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F7B03B9F-CE5D-E48C-B81A-46B09BF9A6FA" name="IMC" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="13DF1BE6-18C0-FC19-3C1B-C8229B7CB925" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="64514566-D20A-F976-4038-537D9D655270" name="clienteImc" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="13DF1BE6-18C0-FC19-3C1B-C8229B7CB925" propertySourceId="1EEDCAAC-8C65-32AC-743E-7905F7A70388" propertyTargetId="F7B03B9F-CE5D-E48C-B81A-46B09BF9A6FA"/>
+   <object objectType="Relation" objectID="C65960CF-C3D3-70D6-C680-1141A23A5851" name="fireFitCliente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="13DF1BE6-18C0-FC19-3C1B-C8229B7CB925" propertySourceId="9C470225-7F02-A593-15A9-8E4D800D12DA" propertyTargetId="1EEDCAAC-8C65-32AC-743E-7905F7A70388"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

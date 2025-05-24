@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9C470225-7F02-A593-15A9-8E4D800D12DA" name="FireFit">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:01:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>fft</preferredAbbreviation>
+<shortName>FireFit</shortName>
+<synonym>FireFit</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="razaoSocial" id="F84DF737-82B7-0A11-D77C-7AA842FE1DAE">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:03:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereco" id="DFC2E482-6B77-4A80-0EC4-FD4D87BCE4DE">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:03:52 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="BACCBD91-AACF-F5A4-2708-31C0AA5831B0">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:04:59 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cnpj" id="A9AAD81D-DA63-9814-5FD1-BD2F54AFC2AD">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:05:13 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="inscricaoEstadual" id="5A84190C-C093-31D0-EFE1-08D0F63A2DAB">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:05:30 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horarioFuncionamento" id="1994DFD5-F6B4-B6CA-138B-D0CBFE8ACFDD">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:05:52 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="atividade" id="1C541D27-3FAB-5ECE-A216-92C1CA7AE029">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:06:18 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

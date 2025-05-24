@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="fireFitCliente" directorySegmentName="seg_0" id="C65960CF-C3D3-70D6-C680-1141A23A5851">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-04 00:04:39 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9C470225-7F02-A593-15A9-8E4D800D12DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1EEDCAAC-8C65-32AC-743E-7905F7A70388</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

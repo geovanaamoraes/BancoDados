@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E088D8D9-F537-E7FA-99CF-0ABAA86FEE42" name="fft">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>9C470225-7F02-A593-15A9-8E4D800D12DA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>FireFit</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="razaoSocial" id="F1F29283-5F24-A402-9D44-333F35B42457">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>F84DF737-82B7-0A11-D77C-7AA842FE1DAE</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="8D2ACC67-3304-5569-F60B-79B9E00CB0CF">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>DFC2E482-6B77-4A80-0EC4-FD4D87BCE4DE</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="AB967450-7CD3-F25A-34A3-987F14513AF0">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>BACCBD91-AACF-F5A4-2708-31C0AA5831B0</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cnpj" id="2E0C3FCC-975A-9BA4-C797-884FD0394CF1">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>A9AAD81D-DA63-9814-5FD1-BD2F54AFC2AD</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="inscricaoEstadual" id="A2296AF3-5F61-B70C-8EE1-F84A314E6A63">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>5A84190C-C093-31D0-EFE1-08D0F63A2DAB</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horarioFuncionamento" id="588A5F4C-1A9C-E558-D713-822D009E5F45">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>1994DFD5-F6B4-B6CA-138B-D0CBFE8ACFDD</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="atividade" id="5D030AAE-4E28-B329-8725-1B09DA8C8680">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>1C541D27-3FAB-5ECE-A216-92C1CA7AE029</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FireFit_ID" id="6B70B44D-040E-71B0-C18E-72E51DF04432">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6FE82AB1-4A27-6109-0CE0-BDD5BF9A5AC7" name="FireFit_PK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="6B70B44D-040E-71B0-C18E-72E51DF04432"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

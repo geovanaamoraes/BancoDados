@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B43CA598-2C7A-BA93-B984-A6569A3DE6FA" containerWithKeyObject="82914CDF-A07B-2A8E-254D-BD2F03081713" localFKIndex="B262154D-D23C-01CB-2E1A-20ED44BB5388" name="clt_fft_FK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>C65960CF-C3D3-70D6-C680-1141A23A5851</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<referredTableLongName>fft</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E088D8D9-F537-E7FA-99CF-0ABAA86FEE42</referredTableID>
+<keyObject>6FE82AB1-4A27-6109-0CE0-BDD5BF9A5AC7</keyObject>
+<referredKeyID>6FE82AB1-4A27-6109-0CE0-BDD5BF9A5AC7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>FireFit_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

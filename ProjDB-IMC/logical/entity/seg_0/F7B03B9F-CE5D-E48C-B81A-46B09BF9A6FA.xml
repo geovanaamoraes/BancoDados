@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7B03B9F-CE5D-E48C-B81A-46B09BF9A6FA" name="IMC">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:11:02 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>imc</preferredAbbreviation>
+<shortName>IMC</shortName>
+<synonym>IMC</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataAvaliacao" id="7825F365-A7A8-F1D4-48C1-2E1729AE74B3">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:18:31 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="62E70156-0E1C-F368-95A6-EF4CFACA957B">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:11:26 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="idade" id="AD266CB6-C788-2E84-1B57-10A1992E89FA">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:12:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexo" id="3001945C-C6B6-608A-F53E-CE90C3C01EF6">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:59:28 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="altura" id="397A6A8D-655D-1661-0656-717CEA23BBB8">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:12:12 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso" id="874547F6-218A-72F6-1944-4AD3E75D71A7">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:15:53 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultadoAnalise" id="A32926EA-B4F8-0670-928B-B178A1C06CA0">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-03 23:47:57 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

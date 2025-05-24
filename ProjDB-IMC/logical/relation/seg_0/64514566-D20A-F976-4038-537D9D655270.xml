@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="clienteImc" directorySegmentName="seg_0" id="64514566-D20A-F976-4038-537D9D655270">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-10 23:42:51 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="0926C031-A264-5B93-605B-1E2EA323B2D0" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1EEDCAAC-8C65-32AC-743E-7905F7A70388</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F7B03B9F-CE5D-E48C-B81A-46B09BF9A6FA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

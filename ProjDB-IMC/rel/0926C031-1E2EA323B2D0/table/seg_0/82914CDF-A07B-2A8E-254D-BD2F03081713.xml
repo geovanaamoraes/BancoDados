@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="82914CDF-A07B-2A8E-254D-BD2F03081713" name="clt">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>1EEDCAAC-8C65-32AC-743E-7905F7A70388</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>Cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nome" id="CE1BB5A0-CF62-8FA2-CE92-3969E0153D82">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>F5A5F58E-8693-927B-85D1-29C02008F0CA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="02FED46E-13D8-DAEF-2A98-36C4FDAC3A67">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>B1F07C41-12E2-CF00-254E-144831E6A8EA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endereco" id="DBA166B3-C957-95C2-7ACF-98F994DF7315">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>BB7F95EA-BADB-C0BF-41AD-6D6A1152F0DA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataNascimento" id="11E25FCB-9174-91D9-10C3-ECCE04F5D36B">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>02BC9700-D927-00D9-F84A-E8D16EFAC909</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexo" id="B697CD50-C059-4449-E69B-5479E37DBE60">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>CFE4329D-B825-45BC-559C-5D168E4C83FB</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="95562AF7-F5EA-1A9B-27C2-67AE9CDACE8B">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>680DDD96-3C62-9D86-05D2-6C52CDB5A902</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="29B0528D-1F31-D061-ABA1-8A4D0D3F0084">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>1BFD5A66-1C4F-EED2-2607-EFA9E0DC3CCF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_ID" id="290A3692-B3A4-CDF6-63E0-8C4A006F92DA">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="fft_FireFit_ID" id="54AB46AC-3566-671D-BE99-BD8DA161D897">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B43CA598-2C7A-BA93-B984-A6569A3DE6FA" referredColumn="6B70B44D-040E-71B0-C18E-72E51DF04432"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A00F464E-A037-6CE5-EDE5-D51DE6B84DA1" name="Cliente_PK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="290A3692-B3A4-CDF6-63E0-8C4A006F92DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B262154D-D23C-01CB-2E1A-20ED44BB5388" name="clt_fft_FK">
+<createdBy>geovana.moraes</createdBy>
+<createdTime>2025-04-11 00:23:44 UTC</createdTime>
+<generatorID>C65960CF-C3D3-70D6-C680-1141A23A5851</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54AB46AC-3566-671D-BE99-BD8DA161D897"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
